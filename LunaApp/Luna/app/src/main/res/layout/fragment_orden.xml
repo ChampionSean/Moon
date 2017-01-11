@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marco.luna.Orden">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|top"
+        android:src="@drawable/lunamini" />
+
+    <TextView
+        android:layout_width="680dp"
+        android:layout_height="124dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="       &quot;Ordenes Pendientes&quot;"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:textColor="#ffffff" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="403dp"
+        android:id="@+id/expandableListView"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
